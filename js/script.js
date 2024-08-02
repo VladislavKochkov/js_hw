@@ -10,11 +10,11 @@ alert(admin);
 
 
 //task #2
-let planetName = "Земля";
-let visitorName = "Имя поситителя";
+const planetName = "Земля";
+const visitorName = "Имя поситителя";
 
 //task #3
 let result;
 result = '10' + 10;
-let typeofResult = typeof result;
+const typeofResult = typeof result;
 console.log(typeofResult);
