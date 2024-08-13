@@ -1,6 +1,6 @@
 # Ignore artifacts:
 build
 covera
-.idea
 node_modules
+.idea
 .vscode
