@@ -17,5 +17,5 @@ const ladder = {
 // ladder.up()
 // ladder.up()
 // ladder.down()
-// ladder.showStep() // 1
-ladder.up().up().down().showStep(); // 1
+// ladder.showStep() //
+ladder.up().up().down().showStep();
