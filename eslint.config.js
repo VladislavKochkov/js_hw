@@ -13,7 +13,7 @@ module.exports = [
       },
     },
     rules: {
-      'no-console': 'warn',
+      'no-console': 'off',
       'semi': ['error', 'always'],
       'quotes': ['error', 'single'],
       'eqeqeq': 'error',
