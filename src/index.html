@@ -1,14 +1,242 @@
-<!doctype html>
-<html lang="en">
+<html lang="uk">
     <head>
         <meta charset="UTF-8" />
-        <title>Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Резюме | Your Name</title>
+        <link
+            rel="stylesheet"
+            href="./../node_modules/bootstrap/dist/css/bootstrap.min.css"
+        />
     </head>
     <body>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Perferendis, vitae.
-        </p>
+        <nav
+            class="navbar navbar-expand-lg navbar-warning bg-warning fixed-top"
+        >
+            <div class="container">
+                <a class="navbar-brand" href="#">Vladislav</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section id="about" class="py-5 mt-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4 text-center mb-3">
+                        <img
+                            src="./assets/img/Vlad.jpg"
+                            alt="My Photo"
+                            class="rounded-circle img-fluid"
+                        />
+                    </div>
+                    <div class="col-md-8">
+                        <h2>About myself</h2>
+                        <p>
+                            Hello! My name is <strong>Vladyslav!</strong> I am a
+                            beginner front-end developer seeking an entry-level
+                            position to apply and further develop my programming
+                            skills. I have experience working with
+                            <strong>HTML, CSS, SCSS,</strong> and
+                            <strong>JavaScript</strong>. I am ready to work both
+                            in the office and remotely — I have all the
+                            necessary equipment to complete projects on time.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-4">Skills</h2>
+                <div class="row">
+                    <div class="col-md-8">
+                        <p>HTML</p>
+                        <div class="progress mb-3">
+                            <div
+                                class="progress-bar bg-success"
+                                role="progressbar"
+                                style="width: 100%"
+                                aria-valuenow="100"
+                                aria-valuemin="0"
+                                aria-valuemax="100"
+                            >
+                                100%
+                            </div>
+                        </div>
+                        <p>CSS</p>
+                        <div class="progress mb-3">
+                            <div
+                                class="progress-bar bg-info"
+                                role="progressbar"
+                                style="width: 93%"
+                                aria-valuenow="93"
+                                aria-valuemin="0"
+                                aria-valuemax="100"
+                            >
+                                93%
+                            </div>
+                        </div>
+                        <p>JavaScript</p>
+                        <div class="progress mb-3">
+                            <div
+                                class="progress-bar bg-warning"
+                                role="progressbar"
+                                style="width: 75%"
+                                aria-valuenow="75"
+                                aria-valuemin="0"
+                                aria-valuemax="100"
+                            >
+                                75%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <p>Bootstrap</p>
+                        <div class="progress mb-3">
+                            <div
+                                class="progress-bar bg-primary"
+                                role="progressbar"
+                                style="width: 80%"
+                                aria-valuenow="80"
+                                aria-valuemin="0"
+                                aria-valuemax="100"
+                            >
+                                80%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Projects</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img
+                                src="./assets/img/Vlad.jpg"
+                                class="card-img-top"
+                                alt="Project 1"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Project 1</h5>
+                                <p class="card-text">
+                                    Description of the first project. This is a
+                                    demonstration of using HTML, CSS and
+                                    JavaScript.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img
+                                src="./assets/img/Vlad.jpg"
+                                class="card-img-top"
+                                alt="Project 2"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Project 2</h5>
+                                <p class="card-text">
+                                    Description of the second project. Using
+                                    Bootstrap for styling.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img
+                                src="./assets/img/Vlad.jpg"
+                                class="card-img-top"
+                                alt="Project 3"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Project 3</h5>
+                                <p class="card-text">
+                                    Description of the third project. Responsive
+                                    design with Bootstrap.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-4">Contact</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="name"
+                            placeholder="Enter your name"
+                        />
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input
+                            type="email"
+                            class="form-control"
+                            id="email"
+                            placeholder="Enter your email"
+                        />
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label"
+                            >Повідомлення</label
+                        >
+                        <textarea
+                            class="form-control"
+                            id="message"
+                            rows="4"
+                            placeholder="Write your message"
+                        ></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        Submit
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <footer class="bg-dark text-white text-center py-3">
+            <div class="container">
+                <p class="mb-0">© 2024 Your Name. All Rights Reserved.</p>
+            </div>
+        </footer>
 
         <script src="js/script.js"></script>
     </body>
